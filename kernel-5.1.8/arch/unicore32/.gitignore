@@ -1,7 +1,7 @@
 #
 # Generated include files
 #
-include/generated
+#include/generated
 #
 # Generated ld script file
 #
