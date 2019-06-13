@@ -1,0 +1,20 @@
+{
+	"files.associations": {
+		"__config": "cpp",
+		"*.json": "jsonc",
+		"*.s": "c",
+		"*.h": "c"
+	},
+
+	"files.autoSave": "off",
+	"editor.tabSize": 4,
+
+	"editor.insertSpaces": false,
+	"editor.autoIndent": false,
+	"typescript.disableAutomaticTypeAcquisition": false,
+	"vsintellicode.java.completionsEnabled": false,
+	"vsintellicode.modify.editor.suggestSelection": "disabled",
+	"vsintellicode.python.completionsEnabled": false,
+	"vsintellicode.typescript.completionsEnabled": false,
+	"C_Cpp.autocomplete": "Disabled"
+}
