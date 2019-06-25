@@ -1,0 +1,71 @@
+
+linux/kernel/vmlinux:     file format elf64-littleaarch64
+
+Sections:
+Idx Name          Size      VMA               LMA               File off  Algn
+  0 .head.text    00000040  ffffff8010080000  ffffff8010080000  00010000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .text         007d9c38  ffffff8010080800  ffffff8010080800  00010800  2**11
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .rodata       0023e0e0  ffffff8010860000  ffffff8010860000  007f0000  2**12
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .pci_fixup    000020c0  ffffff8010a9e0e0  ffffff8010a9e0e0  00a2e0e0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 __ksymtab     00008b90  ffffff8010aa01a0  ffffff8010aa01a0  00a301a0  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 __ksymtab_gpl 00009300  ffffff8010aa8d30  ffffff8010aa8d30  00a38d30  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 __ksymtab_strings 0002bd09  ffffff8010ab2030  ffffff8010ab2030  00a42030  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 __param       00002850  ffffff8010addd40  ffffff8010addd40  00a6dd40  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 __modver      00000a70  ffffff8010ae0590  ffffff8010ae0590  00a70590  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 __ex_table    00001598  ffffff8010ae1000  ffffff8010ae1000  00a71000  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .notes        0000003c  ffffff8010ae2598  ffffff8010ae2598  00a72598  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .init.text    000324d0  ffffff8010af0000  ffffff8010af0000  00a80000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .exit.text    000022a4  ffffff8010b224d0  ffffff8010b224d0  00ab24d0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .altinstructions 00029478  ffffff8010b24774  ffffff8010b24774  00ab4774  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .altinstr_replacement 00014418  ffffff8010b4dbec  ffffff8010b4dbec  00addbec  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 15 .init.data    0000c328  ffffff8010b63000  ffffff8010b63000  00af3000  2**8
+                  CONTENTS, ALLOC, LOAD, DATA
+ 16 .data..percpu 0000d598  ffffff8010b70000  ffffff8010b70000  00b00000  2**6
+                  CONTENTS, ALLOC, LOAD, DATA
+ 17 .rela.dyn     000e0970  ffffff8010b7d598  ffffff8010b7d598  00b0d598  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .data         0006f360  ffffff8010c60000  ffffff8010c60000  00bf0000  2**12
+                  CONTENTS, ALLOC, LOAD, DATA
+ 19 .got.plt      00000018  ffffff8010ccf360  ffffff8010ccf360  00c5f360  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 20 __bug_table   0000f510  ffffff8010ccf378  ffffff8010ccf378  00c5f378  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 21 .mmuoff.data.write 0000000c  ffffff8010cdf000  ffffff8010cdf000  00c6f000  2**11
+                  CONTENTS, ALLOC, LOAD, DATA
+ 22 .mmuoff.data.read 00000008  ffffff8010cdf800  ffffff8010cdf800  00c6f800  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 23 .bss          0005aaa8  ffffff8010ce0000  ffffff8010ce0000  00c6f808  2**12
+                  ALLOC
+ 24 .comment      00000030  0000000000000000  0000000000000000  00c6f808  2**0
+                  CONTENTS, READONLY
+ 25 .debug_line   0077142d  0000000000000000  0000000000000000  00c6f838  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .debug_info   074ce9b7  0000000000000000  0000000000000000  013e0c65  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 27 .debug_abbrev 00363d7e  0000000000000000  0000000000000000  088af61c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .debug_aranges 0001af40  0000000000000000  0000000000000000  08c133a0  2**4
+                  CONTENTS, READONLY, DEBUGGING
+ 29 .debug_str    00250b01  0000000000000000  0000000000000000  08c2e2e0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 30 .debug_ranges 00443290  0000000000000000  0000000000000000  08e7edf0  2**4
+                  CONTENTS, READONLY, DEBUGGING
+ 31 .debug_loc    00a40ba5  0000000000000000  0000000000000000  092c2080  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 32 .debug_frame  0021d818  0000000000000000  0000000000000000  09d02c28  2**3
+                  CONTENTS, READONLY, DEBUGGING
