@@ -4,10 +4,15 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/include",
+				"${workspaceFolder}/include/uapi",
                 "${workspaceFolder}/arch/arm64/include",
+				"${workspaceFolder}/arch/arm64/include/uapi",
+                "${workspaceFolder}/arch/arm64/include/generated",
+				"${workspaceFolder}/arch/arm64/include/generated/uapi",
                 "${workspaceFolder}/toolchain/aarch64-linux-gnu/include"
             ],
             "defines": [
+				"__ASSEMBLY__",
                 "__GNUC__",
                 "__KERNEL__"
             ],

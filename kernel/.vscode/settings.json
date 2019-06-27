@@ -12,9 +12,6 @@
 	"editor.insertSpaces": false,
 	"editor.autoIndent": false,
 	"typescript.disableAutomaticTypeAcquisition": false,
-	"vsintellicode.java.completionsEnabled": false,
-	"vsintellicode.modify.editor.suggestSelection": "disabled",
-	"vsintellicode.python.completionsEnabled": false,
-	"vsintellicode.typescript.completionsEnabled": false,
-	"C_Cpp.autocomplete": "Disabled"
+	"C_Cpp.autocomplete": "Disabled",
+	"C_Cpp.errorSquiggles": "Disabled"
 }
